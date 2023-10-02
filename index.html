@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link Favicon -->
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <main class="calculadora">
+      <div class="calculo">
+        <!-- Container Display -->
+        <div class="tela">
+          <div class="inserido">
+            <input class="valor_inserido" type="text" disabled>
+          </div>
+
+          <div class="resultado">
+            
+            <input class="valor_do_resultado" type="text" disabled>
+          </div>
+        </div>
+        <!-- Container Keyboard -->
+        <div class="teclado">
+          <button  class="teclado__button cancel">CE</button>
+          <button  class="teclado__button clear">C</button>
+          <button  class="teclado__button data" data-num="%">%</button>
+          <button  class="teclado__button teclado__button--violeta data" data-num="/">÷</button>
+          <button  class="teclado__button data" data-num="7">7</button>
+          <button  class="teclado__button data" data-num="8">8</button>
+          <button  class="teclado__button data" data-num="9">9</button>
+          <button  class="teclado__button teclado__button--violeta data" data-num="*">X</button>
+          <button  class="teclado__button data" data-num="4">4</button>
+          <button  class="teclado__button data" data-num="5">5</button>
+          <button  class="teclado__button data" data-num="6">6</button>
+          <button  class="teclado__button teclado__button--violeta data" data-num="-">-</button>
+          <button  class="teclado__button data" data-num="1">1</button>
+          <button  class="teclado__button data" data-num="2">2</button>
+          <button  class="teclado__button data" data-num="3">3</button>
+          <button  class="teclado__button teclado__button--violeta data" data-num="+">+</button>
+          <button  class="teclado__button negative">+/-</button>
+          <button  class="teclado__button data" data-num="0">0</button>
+          <button  class="teclado__button data" data-num=".">,</button>
+          <button  class="teclado__button teclado__button--roxo equal" >=</button>
+        </div>
+      </div>
+    </main>
+    <!-- Link Javascript -->
+    <script src="script.js"></script>
+  </body>
+</html>
